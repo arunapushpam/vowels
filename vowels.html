@@ -10,19 +10,21 @@
 		<script>
 			var a=prompt("enter the name");
 				b=0; vowels="aeiou"
-			for (i=0;i<=a.length;i++){
+			for (i=0;i<a.length;i++){
 				for (j=0; j<=vowels.length;j++){
-					if (a[i]==vowels.[j]){
+					if (a[i]==vowels[j]){
 						b++;
 					}
 				}
 			}
 			if(b){
-				console.log("string has vowles");
+				console.log("string has"+b+ " vowles");
 			}
 			else{
 				console.log("string has no vowels");
 			}
+			
+			
 		</script>
 </body>
 </html>
